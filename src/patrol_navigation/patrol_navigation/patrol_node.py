@@ -16,7 +16,6 @@ class PatrolNode(Node):
         self.state = 0 
         self.get_logger().info('Patrol Node Intiated')
         
-        
     def patrol_callback(self):
         msg = Twist()
         if self.state == 0 :
