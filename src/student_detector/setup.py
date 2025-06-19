@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'student_detector = student_detector.student_detector:main'
         ],
     },
 )
