@@ -8,11 +8,11 @@ def generate_launch_description():
             executable='patrol_node',
             name='patrol_node'
         ),
-        # Node(
-        #     package='student_detector',
-        #     executable='student_detector',
-        #     name='student_detector'
-        # ), 
+        Node(
+            package='student_detector',
+            executable='student_detector',
+            name='student_detector'
+        ), 
         # Node(
         #     package='incident_logger',
         #     executable='incident_logger',
