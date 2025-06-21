@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+                    'alert_api = alert_system.alert_api:main',
+
         ],
     },
 )
